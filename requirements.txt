@@ -1,0 +1,30 @@
+# ============================================================
+# Requirements for the Blog Writing Agent (BWA)
+# Groq/Llama 3 replaces OpenAI
+# ============================================================
+
+# Core LangChain + LangGraph
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-groq>=0.2.0          # Groq provider (replaces langchain-openai)
+langchain-community>=0.3.0     # TavilySearchResults lives here
+
+# Groq SDK (langchain-groq pulls this in, but pin it for clarity)
+groq>=0.11.0
+
+# Tavily search (for research nodes in notebooks 3, 4, 5 and bwa_backend)
+tavily-python>=0.5.0
+
+# Pydantic (structured outputs)
+pydantic>=2.0.0
+
+# Environment variable loading
+python-dotenv>=1.0.0
+
+# Streamlit frontend (bwa_frontend.py)
+streamlit>=1.35.0
+pandas>=2.0.0
+
+# Google Generative AI SDK (image generation in notebook 5 and bwa_backend)
+google-genai>=0.8.0
