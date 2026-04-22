@@ -12,7 +12,7 @@ It simulates a real-world content workflow:
 
 * 🔍 Decide if research is needed
 * 📚 Gather relevant information
-* 🧩 Plan blog structure
+* 🧩 Plan blog structure 
 * ✍️ Generate sections
 * 🖼️ Add contextual images
 * 📄 Export final markdown
